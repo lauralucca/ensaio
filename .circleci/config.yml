@@ -62,6 +62,6 @@ workflows:
   momento_tech:
     jobs:
       - build
-      - deploy-via-git:
+      - heroku/deploy-via-git:
           requires:
             - build
